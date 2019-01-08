@@ -1,0 +1,362 @@
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+} 
+.border-bottom2 {
+    border-bottom: 1px solid #bbbbbb;
+} 
+.btn-extra-margin {margin-right: 5px;}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.card-img-top {
+    width: 40%;
+    display: block;
+    margin: 10px auto 10px auto;
+
+}
+.card-img-top-sm {
+    width: 20%;
+    display: block;
+    margin: 10px auto 10px auto;
+
+}
+.padding-top-zero{
+    padding-top: 0;
+}
+.sell-red{
+    color: #703333;
+    font-weight: bold;
+    text-align: center;
+}
+.sell-green{
+    color: #30662a;
+    font-weight: bold;
+    text-align: center;
+}
+.badge-gold {
+    color: #4f2f00;
+    background-color: #bf9413;
+}
+
+.badge-gold[href]:focus,
+.badge-gold[href]:hover {
+  color: #4f2f00;
+  text-decoration: none;
+  background-color: #a07e18;
+}
+.badge-green {
+    color: #fff;
+    background-color: #4f8d5d;
+}
+.badge-green[href]:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #466c4e;
+}
+.badge-blue {
+    color: #fff;
+    background-color: #427ebe;
+}
+.badge-blue[href]:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #406286;
+}
+.buttons-center{
+    text-align: center;
+}
+.title-center{
+    font-weight: bold;
+    text-align: center;
+}
+.list-group-item {
+    
+    padding: 0.4rem 0.4rem;
+}
+.card-body2 {
+    
+    padding: 0.6rem;
+}
+.card-title {
+    font-size: 18px;
+}
+.card-red{
+    background-color: #ddcccc;
+}
+.card-red .list-coin{
+    background-color: #eee0e0;
+}
+.card-red .list-top{
+    background-color: #ddcccc;
+    border: none;
+}
+.card-green{
+    background-color: #c0d1c5;
+}
+.card-green .list-coin{
+    background-color: #dbe6dd;
+}
+.card-green .list-top{
+    background-color: #c0d1c5;
+    border: none;
+}
+.card-gray{
+    background-color: #e6e6e6;
+}
+.card-gray .list-coin{
+    background-color: #e6e6e6;
+}
+.darker{
+    background-color: #cccccc;
+}
+
+.badge-order-green {
+    color: #000;
+    background-color: #b3c2b7;
+}
+.badge-order-red {
+    color: #000;
+    background-color: #c9b5b5;
+}
+
+  .btn {
+      margin-top: 5px;
+      cursor: pointer;
+  }
+  
+.btn-light {
+    background-color: #efefef;
+    border-color: #efefef;
+}
+
+.btn-order-green {
+    color: #30662a;
+    background-color: #c0d1c5;
+    border-color: #c0d1c5;
+    font-weight: bold;
+}
+.btn-order-green:hover {
+    color: #fff;
+    background-color: #2e6d3c;
+    border-color: #266133;
+  }
+.btn-order-red {
+    color: #703333;
+    background-color: #ddcccc;
+    border-color: #ddcccc;
+    font-weight: bold;
+}
+.btn-order-red:hover {
+    color: #fff;
+  background-color: #972d37;
+  border-color: #88232d;
+  }
+  .navbar{
+    margin-bottom: 20px;
+  }
+  
+
+  .btn-arrow-right,
+.btn-arrow-left {
+    position: relative;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.btn-arrow-right {
+    padding-left: 36px;
+}
+.btn-arrow-left {
+    padding-right: 36px;
+}
+.btn-arrow-right:before,
+.btn-arrow-right:after,
+.btn-arrow-left:before,
+.btn-arrow-left:after { /* make two squares (before and after), looking similar to the button */
+    content:"";
+    position: absolute;
+    top: 5px; /* move it down because of rounded corners */
+    width: 22px; /* same as height */
+    height: 22px; /* button_outer_height / sqrt(2) */
+    background: inherit; /* use parent background */
+    border: inherit; /* use parent border */
+    border-left-color: transparent; /* hide left border */
+    border-bottom-color: transparent; /* hide bottom border */
+    border-radius: 0px 4px 0px 0px; /* round arrow corner, the shorthand property doesn't accept "inherit" so it is set to 4px */
+    -webkit-border-radius: 0px 4px 0px 0px;
+    -moz-border-radius: 0px 4px 0px 0px;
+}
+.btn-arrow-right:before,
+.btn-arrow-right:after {
+    transform: rotate(45deg); /* rotate right arrow squares 45 deg to point right */
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+.btn-arrow-left:before,
+.btn-arrow-left:after {
+    transform: rotate(225deg); /* rotate left arrow squares 225 deg to point left */
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+}
+.btn-arrow-right:before,
+.btn-arrow-left:before { /* align the "before" square to the left */
+    left: -11px;
+}
+.btn-arrow-right:after,
+.btn-arrow-left:after { /* align the "after" square to the right */
+    right: -11px;
+}
+.btn-arrow-right:after,
+.btn-arrow-left:before { /* bring arrow pointers to front */
+    z-index: 1;
+}
+.btn-arrow-right:before,
+.btn-arrow-left:after { /* hide arrow tails background */
+    background-color: #e9ecef;
+}
+
+
+.btn-secondary{
+    color: #fff;
+    background-color: #bcc3ca;
+    border-color: #bbc1c7;
+}
+
+.wallet_input {
+    width: 100%;
+    max-width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(218, 225, 233);
+    border-image: initial;
+    border-radius: 4px;
+    background: rgb(249, 251, 252);
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.modal-footer > :not(:first-child) {
+    margin-right: .25rem;
+}
+
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+    position: relative;
+    width: 36px;
+    font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+    font-size: 0.75rem;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+    top: 3px;
+    line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+    top: -10px;
+}
+
+@media (min-width: 576px) {
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa > .badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
+        top: -7px;
+    }
+}
